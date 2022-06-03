@@ -74,4 +74,9 @@ p {
     font-size: 24px;
     color:white;
     -moz-box-align: start;
+    padding:2em;
+}
+.fa-brands, .fa-github{
+    padding: 6px;
+    text-align: right;
 }
