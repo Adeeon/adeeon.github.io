@@ -24,7 +24,7 @@ html {
 .ppic {
     display:block;
     border-style: solid white;
-    border-width: 1px;
+    border-width: 6px;
     border-radius: 3em;
     size: 40px;
     margin-left: auto;
