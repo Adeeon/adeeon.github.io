@@ -22,11 +22,19 @@ html {
 }
 
 .ppic {
+    display:block;
+    border-style: solid white;
+    border-width: 1px;
     border-radius: 3em;
     size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;    
 }
 
 .main {
+    display:flex;
+
     margin-left: 25%;
     margin-right: 25%;
 
@@ -36,7 +44,7 @@ html {
 }
 
 body {
-    background-image: url"https://github.com/Adeeon/adeeon.github.io/blob/main/Photos/background.jpg";
+    background-image: url"https://raw.githubusercontent.com/Adeeon/adeeon.github.io/main/Photos/background.jpg";
     background-color: midnightblue;
     background-size: cover;
 
