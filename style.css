@@ -7,8 +7,19 @@ html {
 }
 
 .background {
-    position: fixed;
+    position:static;
     box-sizing: content-box;
+    margin: 0
+}
+
+.profile {
+    margin-right: 75%;
+    background-color: hsla(180, 0%, 46%, 40%);
+}
+
+.ppic {
+    border-radius: 3em;
+    size: 40px;
 }
 
 p {
