@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    
 }
 
 *, *:before, *:after {
@@ -25,7 +26,7 @@ html {
 }
 
 body {
-    background-image: url"Photos/background.jpg";
+    background-image: url"https://github.com/Adeeon/adeeon.github.io/blob/main/Photos/background.jpg";
     background-color: midnightblue;
     background-size: cover;
 
