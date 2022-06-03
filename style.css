@@ -25,7 +25,7 @@ html {
 }
 
 body {
-    background-image: "Photos/background.jpg";
+    background-image: url"Photos/background.jpg";
     background-color: midnightblue;
     background-size: cover;
 
