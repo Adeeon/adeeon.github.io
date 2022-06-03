@@ -1,3 +1,16 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.background {
+    position: fixed;
+    box-sizing: content-box;
+}
+
 p {
     font-size: 4em;
 }
