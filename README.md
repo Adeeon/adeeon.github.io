@@ -1,4 +1,4 @@
 # adeeon.github.io
 Portfolio 
-home.html
+index.html
 sytle.css

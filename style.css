@@ -18,11 +18,21 @@ html {
 .profile {
     margin-right: 75%;
     background-color: hsla(180, 0%, 46%, 40%);
+    height: 100%
 }
 
 .ppic {
     border-radius: 3em;
     size: 40px;
+}
+
+.main {
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+.main p {
+    font-size: 24px;
 }
 
 body {
@@ -31,6 +41,7 @@ body {
     background-size: cover;
 
 }
+
 
 p {
     font-size: 4em;
