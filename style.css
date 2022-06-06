@@ -100,8 +100,6 @@ html {
     }
 }
 
-
-
 @media (min-width: 650px) {
     .second {
         margin-left: 25%
@@ -131,7 +129,7 @@ html {
     }
 
     .name, .sub {
-        font-size: 2vh;
+        font-size: 1.2vh;
     }
 
 
@@ -150,7 +148,88 @@ html {
     .sslink {
         float: center;
         align-content: left;
-        padding-top: 40px;
+        padding-top: 10px;
+    }
+
+    .buttonicon {
+        font-size: 2vh;
+        color:white;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .fa-brands, .fa-github{
+        padding: 6px;
+        text-align: right;
+    } 
+
+    a {
+        color:#b6c6de
+    }
+
+    .second { 
+        padding-left:0%;
+        margin-right:5%;
+    }
+    .second .main h2, .second .sumof h3, .second .workhis h3 {
+        font-size: 4vw;
+    }
+
+    .main, .objstat, .sumof, .workhis {
+        padding-right: 5%;
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 1080px) {
+    .second {
+        margin-left: 25%
+    }
+    
+    body {
+        display:flex;
+        background-image: url("https://raw.githubusercontent.com/Adeeon/adeeon.github.io/main/Photos/background.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: midnightblue;
+        margin-left: auto;
+        margin-right: auto;
+        color: whitesmoke;
+        margin-bottom: 0%;
+    }
+    
+    .profile {
+        position:fixed;
+        margin-right: 80%;
+        background-color: hsla(180, 0%, 46%, 40%);
+        height: 100%;
+        font-size: 16px;
+        text-align: center;
+        padding: 30px 5px    
+    }
+
+    .name, .sub {
+        font-size: 1.5vh;
+    }
+
+
+    .ppic img{
+        display:block;
+        box-sizing: content-box;
+        border-style: solid white;
+        border-width: 6px;
+        border-radius: 10em;
+        size: 40px;
+        width:50%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    
+    .sslink {
+        float: center;
+        align-content: left;
+        padding-top: 10px;
     }
 
     .buttonicon {
