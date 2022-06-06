@@ -9,11 +9,13 @@ html {
 @media (max-width:649px) {
 
     main {
-        /* max-width: 100%;
-        max-height: 100%; */
+        background-image: url("https://raw.githubusercontent.com/Adeeon/adeeon.github.io/main/Photos/sbackground.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         font-size: 2vh;
         background-color: #220e24;
-        color:#639cd9;
+        color:#f8d7d7;
         padding-bottom: 12px;
     }
 
@@ -38,7 +40,7 @@ html {
     }
 
     a {
-        color: #297cd4
+        color:#f8d7d7;
     }
 
     .buttonicon:hover, a:hover {
@@ -52,7 +54,7 @@ html {
     }
 
     .sub {
-        color:hsla(211, 61%, 62%, 75%);
+        color:hsla(0, 70%, 91%, 75%);
         margin-left:5%;
         margin-right:5%;
     }
@@ -94,6 +96,7 @@ html {
     li {
         padding-bottom: 8px;
         list-style: square;
+        
     }
 }
 
@@ -108,25 +111,27 @@ html {
         display:flex;
         background-image: url("https://raw.githubusercontent.com/Adeeon/adeeon.github.io/main/Photos/background.jpg");
         background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         background-color: midnightblue;
         margin-left: auto;
         margin-right: auto;
-        color: white;
+        color: whitesmoke;
         margin-bottom: 0%;
     }
     
     .profile {
-        position:absolute;
+        position:fixed;
         margin-right: 80%;
         background-color: hsla(180, 0%, 46%, 40%);
         height: 100%;
-        font-size: 11px;
+        font-size: 16px;
         text-align: center;
         padding: 30px 5px    
     }
 
     .name, .sub {
-        font-size: 1.2em;
+        font-size: 2vh;
     }
 
 
@@ -143,16 +148,15 @@ html {
     } 
     
     .sslink {
-        float: left;
-        align-content: center;
+        float: center;
+        align-content: left;
         padding-top: 40px;
-        
     }
 
     .buttonicon {
-        font-size: 24px;
+        font-size: 1.4vh;
         color:white;
-        text-align: left;
+        text-align: center;
         justify-content: center;
     }
 
@@ -161,17 +165,21 @@ html {
         text-align: right;
     } 
 
+    a {
+        color:#b6c6de
+    }
+
     .second { 
         padding-left:0%;
         margin-right:5%;
     }
     .second .main h2, .second .sumof h3, .second .workhis h3 {
-        font-size: 3vh;
+        font-size: 4vw;
     }
 
     .main, .objstat, .sumof, .workhis {
         padding-right: 5%;
-        font-size: 2vh;
+        font-size: 2vw;
     }
 }
 
