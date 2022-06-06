@@ -1,82 +1,177 @@
 html {
     box-sizing: border-box;
-    
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
-/* .background {
-    box-sizing:border-box;
-    margin: 0;
-    display:inline-block;
-    width: 100vw;
-    height: 100vh;
-} */
+@media (max-width:649px) {
 
-.profile {
-    position:absolute;
-    margin-right: 70%;
-    background-color: hsla(180, 0%, 46%, 40%);
-    height: 100%;
-    font-size: 11px;
-    text-align: center;
-    padding: 30px 30px    
+    main {
+        /* max-width: 100%;
+        max-height: 100%; */
+        font-size: 2vh;
+        background-color: #220e24;
+        color:#639cd9;
+        padding-bottom: 12px;
+    }
 
+    .ppic img {
+        display:none
+    }
+
+    .sslink {
+        top:0;
+        padding:8px;
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position:fixed;
+        background-color: #121746;
+    }
+
+    .buttonicon {
+        color: #639cd9;
+        font-size: 1em;
+    }
+
+    a {
+        color: #297cd4
+    }
+
+    .buttonicon:hover, a:hover {
+        color: red
+    }
+
+    .name {
+        padding-top: 3vh;
+        margin-left:5%;
+        margin-right:5%;
+    }
+
+    .sub {
+        color:hsla(211, 61%, 62%, 75%);
+        margin-left:5%;
+        margin-right:5%;
+    }
+
+    .main, .objstat, .sumof, .workhis {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 1.2em;
+    }
+
+    h1, h2, h3 {
+        max-width: 95%;
+        text-align: center;
+        font-size: 3vh;
+    }
+
+    h3 {
+        font-size: 4vh;
+    }
+
+    .objstat {
+        text-align: justify;
+        
+    }
+
+    .sumof p {
+        text-align: justify;
+    }
+
+    ul, .sumof p, .objstat p {
+        padding-bottom: 10px;
+    }
+
+    ul {
+        text-align: justify;
+        padding-inline-start: 2%;
+    }
+
+    li {
+        padding-bottom: 8px;
+        list-style: square;
+    }
 }
 
-.ppic img {
-    display:block;
-    box-sizing: content-box;
-    border-style: solid white;
-    border-width: 6px;
-    border-radius: 10em;
-    size: 40px;
-    width:50%;
-    margin-left: auto;
-    margin-right: auto;
-} 
-  
 
-.main {
-    position:absolute;
-    display:flex;
-    flex-direction: column;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 10%;
+
+@media (min-width: 650px) {
+    .second {
+        margin-left: 25%
+    }
+    
+    body {
+        display:flex;
+        background-image: url("https://raw.githubusercontent.com/Adeeon/adeeon.github.io/main/Photos/background.jpg");
+        background-size:cover;
+        background-color: midnightblue;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        margin-bottom: 0%;
+    }
+    
+    .profile {
+        position:absolute;
+        margin-right: 80%;
+        background-color: hsla(180, 0%, 46%, 40%);
+        height: 100%;
+        font-size: 11px;
+        text-align: center;
+        padding: 30px 5px    
+    }
+
+    .name, .sub {
+        font-size: 1.2em;
+    }
+
+
+    .ppic img{
+        display:block;
+        box-sizing: content-box;
+        border-style: solid white;
+        border-width: 6px;
+        border-radius: 10em;
+        size: 40px;
+        width:50%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    
+    .sslink {
+        float: left;
+        align-content: center;
+        padding-top: 40px;
+        
+    }
+
+    .buttonicon {
+        font-size: 24px;
+        color:white;
+        text-align: left;
+        justify-content: center;
+    }
+
+    .fa-brands, .fa-github{
+        padding: 6px;
+        text-align: right;
+    } 
+
+    .second { 
+        padding-left:0%;
+        margin-right:5%;
+    }
+    .second .main h2, .second .sumof h3, .second .workhis h3 {
+        font-size: 3vh;
+    }
+
+    .main, .objstat, .sumof, .workhis {
+        padding-right: 5%;
+        font-size: 2vh;
+    }
 }
 
-.main p {
-    font-size: 24px;
-}
-
-body {
-    display:flex;
-    background-image: url("https://raw.githubusercontent.com/Adeeon/adeeon.github.io/main/Photos/background.jpg");
-    background-size: cover;
-    background-color: midnightblue;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    margin-bottom: 0%;
-}
-
-.sub {
-    color:hsla(0, 0%, 100%, 75%)
-}
-
-p {
-    font-size: 4em;
-}
-.buttonicon {
-    font-size: 24px;
-    color:white;
-    -moz-box-align: start;
-    padding:2em;
-}
-.fa-brands, .fa-github{
-    padding: 6px;
-    text-align: right;
-}
